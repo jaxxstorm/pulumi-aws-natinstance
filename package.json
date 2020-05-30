@@ -1,0 +1,38 @@
+{
+  "name": "@jaxxstorm/pulumi-aws-natinstance",
+  "version": "0.0.1",
+  "description": "AWS NAT instance in an ASG",
+  "author": "Lee Briggs",
+  "license": "MPL-2.0",
+  "main": "nodejs/dist/index.js",
+  "types": "nodejs/dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxxstorm/pulumi-aws-natinstance.git"
+  },
+  "keywords": [
+    "pulumi",
+    "aws",
+    "natinstance"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register nodejs/tests/*.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/jaxxsorm/pulumi-aws-natinstance/issues"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.13.4",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^2.2.0",
+    "@pulumi/pulumi": "^2.1.0"
+  }
+}
